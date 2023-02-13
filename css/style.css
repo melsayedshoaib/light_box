@@ -1,0 +1,31 @@
+.img-caption {
+    bottom: 10px;
+    width: 80%;
+    left: 10%;
+}
+
+#light-box-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#light-box {
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../DevFoli-Img/work-1.jpg);
+}
+
+i {
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    #light-box {
+        width: 100%;
+    }
+}
